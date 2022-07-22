@@ -8,6 +8,10 @@ body {
   color: #333;
 }
 
+html {
+  color: rgba(0, 0, 0, 0);
+}
+
 h1,
 h2,
 h3,
@@ -27,6 +31,19 @@ a {
   color: inherit;
 }
 
+p {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 2rem;
+}
+
+sub {
+  margin-top: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1rem;
+}
+
 .fullscreen-sketch {
   position: absolute;
   top: 0;
@@ -41,12 +58,35 @@ a {
   color: rgba(0, 0, 0, 0);
 }
 
+.back-arrow {
+  width: 30px;
+  margin-left: 0.5vw;
+  cursor: pointer;
+}
+
+.span_back-arrow-wrapper {
+  font-size: 3rem;
+  margin-top: 4vh;
+}
+
+
+
 .wf-active {
   -webkit-transition: opacity 0.25s ease-in;
   transition: opacity 0.25s ease-in;
   color: rgba(0, 0, 0, 1);
 }
 
-html {
-  color: rgba(0, 0, 0, 0);
+.title {
+  font-size: 3rem;
+  margin-left: 1vw;
 }
+
+@media (max-width: 768px) {
+  p {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1rem;
+  }
+}
+
