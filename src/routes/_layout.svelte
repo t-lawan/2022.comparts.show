@@ -33,10 +33,9 @@
     })(document)
   })
 </script>
-
-<main>
+<body>
   <slot />
-</main>
+</body>
 
 <style>
 </style>
